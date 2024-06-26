@@ -16,7 +16,12 @@
   }
 }
 
-body{
-  background-image: url(./foto/background.png), linear-gradient(to left, rgba(31, 41, 55, 0), transparent);
-  z-index: 0;
+.name-animation{
+  transition: 0.5s ease-in-out;
+  display: inline-block;
+}
+
+.name-animation:hover{
+  transform: translateY(-4px);
+  display: inline-block;
 }
