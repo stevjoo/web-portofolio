@@ -1,9 +1,12 @@
 @media (min-width: 1024px) {
   .ngefadefoto {
-    background-image: linear-gradient(to right, rgba(31, 41, 55, 0), transparent);
+    background-image: linear-gradient(to right, rgba(31, 41, 45, 0), transparent);
     opacity: 1;
     mask-image: linear-gradient(to right, transparent, rgba(31, 41, 55, 1));
     -webkit-mask-image: linear-gradient(to right, transparent, rgba(31, 41, 55, 1));
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -13,8 +16,22 @@
     opacity: 1;
     mask-image: linear-gradient(to bottom, transparent, rgba(31, 41, 55, 1));
     -webkit-mask-image: linear-gradient(to bottom, transparent, rgba(31, 41, 55, 1));
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
 }
+
+.ngefadefoto:hover{
+  transition: 0.5s ease-in-out;
+  filter: grayscale(1);
+}
+
+img{
+  pointer-events: none;
+  user-select: none;
+}
+
 
 .name-animation{
   transition: 0.5s ease-in-out;
