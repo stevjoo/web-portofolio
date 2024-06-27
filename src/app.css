@@ -22,23 +22,23 @@
   }
 }
 
-.ngefadefoto:hover{
+.ngefadefoto:hover {
   transition: 0.5s ease-in-out;
   filter: grayscale(1);
 }
 
-img{
+img {
   pointer-events: none;
   user-select: none;
 }
 
 
-.name-animation{
+.name-animation {
   transition: 0.5s ease-in-out;
   display: inline-block;
 }
 
-.name-animation:hover{
+.name-animation:hover {
   transform: translateY(-4px);
   display: inline-block;
 }
