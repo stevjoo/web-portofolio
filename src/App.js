@@ -1,6 +1,5 @@
 import React from 'react';
 import foto from "./foto/foto.jpg";
-import cv from "./foto/cv.png";
 import './app.css';
 import { easeInOut, motion, spring } from "framer-motion"
 
