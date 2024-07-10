@@ -155,7 +155,7 @@ function App() {
               </motion.div>
             </a>
 
-            <a href="#">
+            {/* <a href="#"> 
               <motion.div
                 initial={{ x: "-500%", opacity: 0, rotate: -140 }}
                 animate={{ x: 0, opacity: 1, rotate: 0 }}
@@ -187,6 +187,7 @@ function App() {
                 </motion.button>
               </motion.div>
             </a>
+            */}
           </div>
 
           <a target="_blank" href="https://wa.me/+628111396967">
