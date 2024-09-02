@@ -40,13 +40,13 @@ function App() {
           >
             <p className="text-gray-400 mb-3">
               <span className="transition-color ease-in-out duration-700 hover:text-white">
-                Hi, I'm a Computer Science student at Universitas Multimedia
-                Nusantara. I love learning new things and building my skills.
-                When I'm not hitting the books, you can find me with a camera,
-                capturing moments that tell stories, or mixing audio to create
-                immersive soundscapes. I'm also a Software Engineer and
-                currently learning more about Cybersecurity. Always exploring
-                new interests and trying to be better at what I do.
+                I am a second-year Informatics student at Universitas Multimedia
+                Nusantara with a strong passion for learning and skill
+                development. Currently focused on frontend development, I am
+                also expanding my expertise in backend development and
+                cybersecurity. In addition to my academic pursuits, I enjoy
+                photography and videography. I am dedicated to exploring new
+                interests and continuously improving my abilities.
               </span>
             </p>
           </motion.div>
